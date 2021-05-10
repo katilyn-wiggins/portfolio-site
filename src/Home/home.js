@@ -7,7 +7,7 @@ export default class Home extends Component {
     return (
       <div className="home-page">
         <Header />
-        <h1 className="title">LORE</h1>
+        <h1 className="title">Katilyn Wiggins</h1>
         <Plinko />
       </div>
     );

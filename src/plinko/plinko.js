@@ -1,7 +1,7 @@
 import Matter from 'matter-js';
-import React from 'react';
+import React, { Component } from 'react';
 
-export default class plinko extends React.Component {
+export default class plinko extends Component {
   render() {
     var Engine = Matter.Engine,
       Render = Matter.Render,
