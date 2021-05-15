@@ -1,16 +1,20 @@
-export default function sketch(p) {
-  let canvas;
+import React, { Component } from 'react';
+import Sketch from 'react-p5';
 
-  p.setup = () => {
-    canvas = p.createCanvas(300, 200);
-    p.noStroke();
+export default class SketchComponent extends Component {
+  x = 50;
+  y = 50;
+
+  setup = (p5, parent) => {
+    p5.createCanvas(500, 500).parent(parent);
   };
 
-  p.draw = () => {
-    p.background('orangered');
-    p.ellipse(150, 100, 100, 100);
+  draw = (p5) => {
+    p5.background(0);
+    p5.ellipse(this.x, this.y, 70, 70);
+    this.x++;
   };
-  p.myCustomRedrawAccordingToNewPropsHandler = (newProps) => {
-    if (canvas) p.fill(newProps.color);
-  };
+  render() {
+    return <Sketch setup={this.setup} draw={this.draw}></Sketch>;
+  }
 }
