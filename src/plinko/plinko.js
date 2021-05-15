@@ -1,33 +1,30 @@
-import Matter from 'matter-js';
-import React, { Component } from 'react';
+// import Matter from 'matter-js';
+// import React, { Component } from 'react';
+// import createCanvas from 'p5';
+// // import Particle from './particle';
 
-export default class plinko extends Component {
-  render() {
-    var Engine = Matter.Engine,
-      Render = Matter.Render,
-      Runner = Matter.Runner,
-      Bodies = Matter.Bodies,
-      Composite = Matter.Composite;
+// export default class plinko extends Component {
+//   render() {
+//     var Engine = Matter.Engine,
+//       World = Matter.World,
+//       Bodies = Matter.Bodies;
 
-    var engine = Engine.create();
+//     var engine;
+//     var world;
+//     var particles = [];
 
-    var render = Render.create({
-      element: document.body,
-      engine: engine
-    });
+//     function setup() {
+//       createCanvas(600, 400);
+//       engine = Engine.create();
+//       world = engine.world();
 
-    var boxA = Bodies.rectangle(400, 200, 80, 80);
-    var boxB = Bodies.rectangle(450, 50, 80, 80);
-    var ground = Bodies.rectangle(400, 610, 810, 60, { isStatic: true });
+//       // var p = new Particle(300, 50);
+//     }
 
-    Composite.add(engine.world, [boxA, boxB, ground]);
+//     function draw() {
+//       background(51);
+//     }
 
-    Render.run(render);
-
-    var runner = Runner.create();
-
-    Runner.run(runner, engine);
-
-    return <div></div>;
-  }
-}
+//     return <div></div>;
+//   }
+// }
