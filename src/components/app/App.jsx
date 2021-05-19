@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
-import Home from '../Home/home';
+import Home from '../../containers/PortfolioContainer';
 // import PlinkoSketch from '../src/Components/PlinkoSketch';
 // import Plinko from './plinko/plinko.js';
 // import AboutMe from './AboutMe/about.js';
