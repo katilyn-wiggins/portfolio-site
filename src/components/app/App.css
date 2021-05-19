@@ -50,7 +50,7 @@
 .intro {
   height: 500px;
   width: 500px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 
 .linkedin {
@@ -182,6 +182,23 @@ a {
 .katilyn {
   height: 200px;
   border-radius: 50px;
+}
+
+.social-small {
+  height: 50px;
+  width: 50px;
+}
+
+.small-links li {
+  display: inline;
+  margin: 10px;
+  align-content: center;
+  padding-right: 20px;
+  padding-top: 0px;
+}
+
+.small-links {
+  padding-right: 20px;
 }
 
 /* #946c0A */

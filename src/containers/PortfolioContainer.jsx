@@ -5,6 +5,8 @@ import TechStack from '../components/tech-stack/TechStack'
 import Contact from '../components/contact/Contact'
 import QuickLinks from '../components/quick-links/QuickLinks'
 import SocialLinks from '../components/social-links/SocialLinks'
+import SocialLinksSmall from '../components/social-links/SocialLinksSmall'
+
 import intro2 from '../components/images/intro2.png'
 import '../components/app/App.css'
 
@@ -19,7 +21,9 @@ const PortfolioContainer = () => (
         <About />      
         <Projects /> 
         <TechStack />
-        <Contact /> 
+        <Contact />
+        <SocialLinksSmall /> 
+
 
         <a className="back-to-top" alt="top of page" href="#home">Back to Top</a>
       </div>
