@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../images/resume.pdf'
 import '../app/App.css'
 
 const QuickLinks = () => ( 
@@ -7,6 +8,8 @@ const QuickLinks = () => (
           <a href="#projects">Projects</a>
           <a href="#tech-stack">Tech Stack</a>
           <a href="#contact">Contact</a>
+          <a href={resume}>Resume</a>
+
         </div>
     );
 

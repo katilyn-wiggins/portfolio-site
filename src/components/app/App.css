@@ -184,14 +184,20 @@ a {
   border-radius: 50px;
 }
 
-.links li {
+.social-small {
+  height: 50px;
+  width: 50px;
+}
+
+.small-links li {
   display: inline;
   margin: 10px;
   align-content: center;
+  padding-right: 20px;
   padding-top: 0px;
 }
 
-.links {
+.small-links {
   padding-right: 20px;
 }
 
