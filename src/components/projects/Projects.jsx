@@ -8,7 +8,9 @@ const Projects = () => (
       <>
         <h1 id="projects"className="projects">Projects</h1>
         <h2 className="skincode">SkinCode</h2>
-        <img src={skincode} alt="skincode" className="project-photo"></img>
+        <a href="https://myskincode.netlify.app">
+         <img src={skincode} alt="skincode" className="project-photo"></img>
+        </a>
         <div className="links">
         <ul>
           <li>
@@ -25,7 +27,9 @@ const Projects = () => (
 
 
         <h2>Algorhythm</h2>
-        <img src={algorhythm} alt="algorhythm" className="project-photo"></img>
+        <a href="https://myskincode.netlify.app">
+          <img src={algorhythm} alt="algorhythm" className="project-photo"></img>
+        </a>
         <div className="links">
         <ul>
           <li>
@@ -41,7 +45,9 @@ const Projects = () => (
         <details><summary>Tech Utilized</summary>React/Node.js/Express/PostgreSQL/Spotify oAuth/CSS/ Material UI/ HTML/REST APIs</details>
 
         <h2>Ventana</h2>
-        <img src={ventana} alt="ventana" className="project-photo"></img>
+        <a href="https://myskincode.netlify.app">
+          <img src={ventana} alt="ventana" className="project-photo"></img>
+        </a>
         <div className="links">
             <ul>
                 <li>
