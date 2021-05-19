@@ -7,6 +7,7 @@ import github from '../images/github.svg'
 import twitter from '../images/twitter.svg'
 import skincode from '../images/skincode.png'
 import algorhythm from '../images/algorhythm.png'
+import katilyn from '../images/katilyn.jpg'
 import ventana from '../images/ventana.png'
 import '../app/App.css'
 
@@ -16,8 +17,8 @@ export default class Home extends Component {
       <div className="home-page">
         {/* <Header /> */}
         {/* logo should go here */}
-        <img className="intro" alt="intro that says Katilyn Wiggins, Software Engineer" 
-        src={intro2}/>
+        <a alt="homepage" id="home" href="#home"><img className="intro" alt="intro that says Katilyn Wiggins, Software Engineer" 
+        src={intro2}/></a>
 
         <div className="links">
           <ul>
@@ -33,10 +34,17 @@ export default class Home extends Component {
          </ul>
         </div>
 
-        <h1>About Me</h1>
+        <div className="quick-links">
+          {/* <a href="#about me">About Me</a> */}
+          <a href="#projects">Projects</a>
+          <a href="#tech-stack">Tech Stack</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <h1 id="aboutme">About Me</h1>
         <article>Full Stack Software Engineer passionate about developing tech for everyone. I find joy in systematically evaluating and strategizing creative solutions for life’s little (or big) problems. </article>
                 
-        <h1 className="projects">Projects</h1>
+        <h1 id="projects"className="projects">Projects</h1>
         <h2 className="skincode">SkinCode</h2>
         <img src={skincode} alt="skincode" className="project-photo"></img>
         <div className="links">
@@ -87,7 +95,7 @@ export default class Home extends Component {
 
 
 
-        <h1>Tech Stack</h1>
+        <h1 id="tech-stack">Tech Stack</h1>
         <div className="tech-stack">
         <ul>
         <li className="list-header">Languages</li>
@@ -133,9 +141,13 @@ export default class Home extends Component {
         </ul>
         </div>
 
-        <h1>Contact</h1>
-        <a alt="email link" href="mailto:katilynswiggins@gmail.com">katilynswiggins@gmail.com</a>
+        <h1 id="contact">Contact</h1>
+        <a className="email" alt="email link" href="mailto:katilynswiggins@gmail.com">katilynswiggins@gmail.com</a>
+
+        <img className="katilyn" alt="katilyn" src={katilyn} />
         
+
+        <a className="back-to-top" alt="top of page" href="#home">Back To Top</a>
       </div>
     );
   }

@@ -86,21 +86,30 @@ article {
   height: 2px;
 }
 
-details {
-  font-weight: bold;
+details summary {
+  /* font-weight: bold; */
+  padding-top: 5px;
   width: 500px;
   text-align: center;
+  color: #372a28;
+}
+
+details {
+  width: 500px;
+  text-align: center;
+  color: #372a28;
 }
 
 h1 {
   font-family: 'Nunito', sans-serif;
   font-weight: bolder;
   margin-top: 50px;
-  color: #b78b3c;
+  color: #f2c256;
 }
 
 h2 {
   font-family: 'Nunito', sans-serif;
+  font-size: 25px;
   font-weight: bolder;
   margin-top: 50px;
   color: #b78b3c;
@@ -136,6 +145,43 @@ li {
   font-weight: bolder;
   margin-top: 50px;
   color: #372a28;
+}
+
+.quick-links {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.quick-links a {
+  padding: 10px;
+  color: #7589b3;
+  font-weight: bolder;
+  padding-bottom: 0;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+}
+
+.email {
+  margin-bottom: 20px;
+  color: #372a28;
+}
+
+.back-to-top {
+  margin-top: 20px;
+  color: #7589b3;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.katilyn {
+  height: 200px;
+  border-radius: 50px;
 }
 
 /* #946c0A */
