@@ -20,6 +20,7 @@ const PortfolioContainer = () => (
         <Projects /> 
         <TechStack />
         <Contact /> 
+        <SocialLinks /> 
 
         <a className="back-to-top" alt="top of page" href="#home">Back to Top</a>
       </div>
