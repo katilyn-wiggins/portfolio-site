@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Matter from 'matter-js';
 import * as p5 from 'p5';
 import Boundary from '../plinko/boundary';
+import Particle from '../plinko/particle';
 
 let cols = 11;
 let rows = 10;
@@ -20,10 +21,10 @@ const PlinkoSketch = () => {
     let radius;
     p5.setup = () => {
       p5.createCanvas(p5.windowWidth, p5.windowHeight);
+
+      //BACKGROUND
       p5.background('lightblue');
       radius = 0;
-
-      //makes background pegs
       let spacing = 500 / cols;
       for (let j = 0; j < rows; j++) {
         for (let q = 0; q < cols + 1; q++) {
@@ -38,6 +39,7 @@ const PlinkoSketch = () => {
         }
       }
 
+      //BOUNDARY
       let b = new Boundary(500 / 2, 500 + 50, 500, 100);
       bounds.push(b);
 

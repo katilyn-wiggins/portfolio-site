@@ -69,15 +69,3 @@
 // };
 
 // export default PlinkoSketch;
-
-// // let b = new Boundary(500 / 2, 500 + 50, 500, 100);
-// // bounds.push(b);
-
-// // for (var j = 0; j < cols; +1, j++) {
-// //   const x = j * spacing;
-// //   const h = 100;
-// //   const w = 10;
-// //   const y = 500 - h / 2;
-// //   let b = new Boundary(x, y, w, h);
-// //   bounds.push(b);
-// // }
