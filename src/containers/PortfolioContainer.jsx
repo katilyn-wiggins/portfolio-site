@@ -11,8 +11,8 @@ import '../components/app/App.css'
 const PortfolioContainer = () => (
 
       <div className="home-page">
-        <a alt="homepage" id="home" href="#home"><img className="intro" alt="intro that says Katilyn Wiggins, Software Engineer" 
-        src={intro2}/></a>
+        <img id="home" className="intro" alt="intro that says Katilyn Wiggins, Software Engineer" 
+        src={intro2}/>
 
         <SocialLinks /> 
         <QuickLinks /> 
