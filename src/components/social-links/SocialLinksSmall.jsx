@@ -8,13 +8,13 @@ const SocialLinksSmall = () => (
         <div className="small-links">
           <ul>
             <li className="linkedin">
-              <a href="https://www.linkedin.com/in/katilynwiggins"><img className="social-small" src={linkedin} alt="linkedin"></img></a>
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/katilynwiggins"><img className="social-small" src={linkedin} alt="linkedin"></img></a>
             </li>
             <li>
-              <a href="https://github.com/katilyn-wiggins"><img className="social-small" src={github} alt="github"></img></a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/katilyn-wiggins"><img className="social-small" src={github} alt="github"></img></a>
             </li>
             <li>
-              <a href="https://twitter.com/pinkishcreature"><img className="social-small" src={twitter} alt="twitter"></img></a>
+              <a target="_blank" rel="noreferrer" href="https://twitter.com/pinkishcreature"><img className="social-small" src={twitter} alt="twitter"></img></a>
            </li>
          </ul>
         </div>

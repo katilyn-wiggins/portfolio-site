@@ -8,16 +8,16 @@ const Projects = () => (
       <>
         <h1 id="projects"className="projects">Projects</h1>
         <h2 className="skincode">SkinCode</h2>
-        <a href="https://myskincode.netlify.app">
+        <a target="_blank" rel="noreferrer" href="https://myskincode.netlify.app">
          <img src={skincode} alt="skincode" className="project-photo"></img>
         </a>
         <div className="links">
         <ul>
           <li>
-        <a className="projectlink" href="https://myskincode.netlify.app">Live</a>
+        <a target="_blank" rel="noreferrer" className="projectlink" href="https://myskincode.netlify.app">Live</a>
         </li>
         <li>
-        <a className="projectlink" href="https://github.com/Foundation-App">Code</a>
+        <a target="_blank" rel="noreferrer" className="projectlink" href="https://github.com/Foundation-App">Code</a>
         </li>
         </ul>
         </div>
@@ -27,16 +27,16 @@ const Projects = () => (
 
 
         <h2>Algorhythm</h2>
-        <a href="https://myskincode.netlify.app">
+        <a target="_blank" rel="noreferrer" href="https://myskincode.netlify.app">
           <img src={algorhythm} alt="algorhythm" className="project-photo"></img>
         </a>
         <div className="links">
         <ul>
           <li>
-            <a className="projectlink" href="https://algo-rhythm.netlify.app">Live</a>
+            <a target="_blank" rel="noreferrer" className="projectlink" href="https://algo-rhythm.netlify.app">Live</a>
           </li>
           <li>
-            <a className="projectlink" href="https://github.com/playshare-app">Code</a>
+            <a target="_blank" rel="noreferrer" className="projectlink" href="https://github.com/playshare-app">Code</a>
           </li>
         </ul>
         </div>
@@ -45,16 +45,16 @@ const Projects = () => (
         <details><summary>Tech Utilized</summary>React/Node.js/Express/PostgreSQL/Spotify oAuth/CSS/ Material UI/ HTML/REST APIs</details>
 
         <h2>Ventana</h2>
-        <a href="https://myskincode.netlify.app">
+        <a target="_blank" rel="noreferrer" href="https://myskincode.netlify.app">
           <img src={ventana} alt="ventana" className="project-photo"></img>
         </a>
         <div className="links">
             <ul>
                 <li>
-                 <a className="projectlink" href="http://travel-site-alchemy.github.io/travel-site/">Live</a>
+                 <a target="_blank" rel="noreferrer" className="projectlink" href="http://travel-site-alchemy.github.io/travel-site/">Live</a>
               </li>
               <li>
-                 <a className="projectlink" href="https://github.com/Travel-Site-Alchemy/travel-site">Code</a>
+                 <a target="_blank" rel="noreferrer" className="projectlink" href="https://github.com/Travel-Site-Alchemy/travel-site">Code</a>
               </li>
             </ul>
         </div>
