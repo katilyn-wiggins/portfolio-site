@@ -8,7 +8,7 @@ const QuickLinks = () => (
           <a href="#projects">Projects</a>
           <a href="#tech-stack">Tech Stack</a>
           <a href="#contact">Contact</a>
-          <a href={resume}>Resume</a>
+          <a target="_blank" rel="noreferrer" href={resume}>Resume</a>
 
         </div>
     );
