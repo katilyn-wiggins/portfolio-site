@@ -2,6 +2,7 @@ import React from 'react';
 import skincode from '../images/skincode.png'
 import algorhythm from '../images/algorhythm.png'
 import ventana from '../images/ventana.png'
+import angleon from '../images/angleon.png'
 import '../app/App.css'
 
 const Projects = () => ( 
@@ -24,6 +25,24 @@ const Projects = () => (
         
         <article>An app that challenges the beauty world as we know it by providing accurate and accessible foundation matches for every skin tone. Collaborated remotely with 3 female developers over a week-long sprint. Full stack application that utilizes 3 API's and 2 machine learning models. Personally responsible for developing the final logic behind the foundation prediction algorithm. </article>
         <details><summary>Tech Utilized</summary>React/Node.js/Express/PostgreSQL/Machine Learning Models/REST APIs/Bcrypt/CSS/HTML</details>
+
+        <h2>Angle On</h2>
+        <a target="_blank" rel="noreferrer" href="https://myskincode.netlify.app">
+          <img src={angleon} alt="angleon" className="project-photo"></img>
+        </a>
+        <div className="links">
+        <ul>
+          <li>
+            <a target="_blank" rel="noreferrer" className="projectlink" href="https://dazzling-heyrovsky-02bd75.netlify.app/">Live</a>
+          </li>
+          <li>
+            <a target="_blank" rel="noreferrer" className="projectlink" href="https://github.com/Angle-On">Code</a>
+          </li>
+        </ul>
+        </div>
+       
+        <article>A platform for emerging filmmakers from underrepresented communities. Full-stack application with two distinct portals developed over a 2 week sprint. Utilizes AWS buckets and postgreSQL to store user info. Piloted the development of the dynamic user panels and application form which utilize REST API's, Material UI, and AWS buckets.</article>
+        <details><summary>Tech Utilized</summary>React/Node.js/Express/PostgreSQL/Google oAuth/AWS/CSS/Material UI/HTML/REST APIs</details>
 
 
         <h2>Algorhythm</h2>
