@@ -4,7 +4,7 @@ import React from 'react';
 // import '../app/App.css'
 
 const About = () => (  
-      <>
+      <div className="about-me">
         <h1 id="aboutme">About Katilyn</h1>
         <article>Hi! I'm Katilyn, a Full Stack Software Engineer passionate about developing tech for everyone. I find joy in systematically evaluating and strategizing creative solutions for life’s little (or big) problems. </article>
         <br></br>
@@ -13,7 +13,7 @@ const About = () => (
         {/* <article>More about my adventures on the road</article>
         <br></br> */}
         {/* <article>Want the tl;dr version? <a alt="resume" href="./">resume</a></article> */}
-      </>       
+      </div>       
     );
 
 export default About;

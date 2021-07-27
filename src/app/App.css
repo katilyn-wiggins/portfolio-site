@@ -1,0 +1,290 @@
+* {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  background-color: transparent;
+  z-index: 1;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: #fafafa;
+}
+
+a:link {
+  color: #fafafa;
+}
+
+a:visited {
+  color: goldenrod;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 0%;
+}
+
+.back-to-top {
+  text-align: center;
+}
+
+.header-container {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 0.8rem;
+  left: 0;
+  /* background-color: rgba(226, 221, 222, 0.1); */
+}
+
+.header-nav ul {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  height: 10%;
+  padding: 1%;
+}
+
+.header-nav li {
+  list-style: none;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.header-nav a {
+  display: block;
+  padding: 0 1.6rem;
+  text-decoration: none;
+  color: rgba(226, 221, 222, 0.2);
+}
+
+/* top photo  */
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(10, 10, 10, 0.6);
+  color: rgba(229, 222, 188, 0.9);
+  font-weight: bolder;
+  font-size: 2ch;
+  width: 40vw;
+  /* height: 50vh; */
+  margin-top: 12%;
+  line-height: 5ch;
+  z-index: 1;
+}
+.about-me header {
+  font-weight: bolder;
+}
+
+.about-me article {
+  width: 60vh;
+  text-align: center;
+}
+
+.linkedin {
+  height: 100px;
+  width: 100px;
+}
+
+.social {
+  height: 50px;
+  width: 50px;
+}
+
+.links li {
+  display: inline;
+  margin: 10px;
+  align-content: center;
+  padding-right: 20px;
+  padding-top: 0px;
+}
+
+.project-photo {
+  width: 500px;
+  border: 5px solid #7589b3;
+  border-radius: 10px;
+}
+
+.page-break {
+  height: 2px;
+}
+
+details summary {
+  /* font-weight: bold; */
+  padding-top: 5px;
+  width: 500px;
+  text-align: center;
+  color: #372a28;
+}
+
+details {
+  width: 500px;
+  text-align: center;
+  color: #372a28;
+}
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bolder;
+  /* margin-top: 50px; */
+  color: #f2c256;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+  /* margin-top: 50px; */
+  color: #b78b3c;
+  text-align: center;
+}
+
+.projects .project-photo {
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 200px;
+  text-align: center;
+  justify-content: center;
+}
+
+.tech-container .tech-stack {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  /* height: 50%; */
+  width: 100%;
+}
+
+li {
+  list-style: none;
+  color: #fafafa;
+}
+
+.list-header {
+  font-weight: bold;
+}
+
+.skincode {
+  margin-top: 20px;
+}
+
+.projectlink {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bolder;
+  margin-top: 50px;
+  color: #372a28;
+}
+
+.quick-links {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.quick-links a {
+  padding: 10px;
+  color: #7589b3;
+  font-weight: bolder;
+  padding-bottom: 0;
+  font-size: 25px;
+}
+
+.projects .project-photo a {
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.email {
+  margin-bottom: 20px;
+  color: #372a28;
+  text-align: center;
+}
+
+.back-to-top {
+  /* margin-top: 20px; */
+  color: #7589b3;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.katilyn {
+  width: 150px;
+  border-radius: 50px;
+}
+
+.social-small {
+  height: 50px;
+  width: 50px;
+}
+
+.small-links li {
+  display: inline;
+  margin: 10px;
+  align-content: center;
+  padding-right: 20px;
+  padding-top: 0px;
+}
+
+.small-links {
+  padding-right: 20px;
+}
+
+/* #946c0A */
+/* f2c256 */
+
+.light-video {
+  object-fit: cover;
+  /* transform: rotate(180deg);  */
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  overflow: hidden;
+  max-width: 100%;
+  top: 0;
+  left: 0;
+  padding: none;
+}
+
+/* .header-container {
+  z-index: 1;
+  background-color: white;
+} */

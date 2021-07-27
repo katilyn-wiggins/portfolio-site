@@ -1,6 +1,6 @@
 import React from 'react';
 import resume from '../images/resume.pdf'
-import '../app/App.css'
+import '../../app/App.css'
 
 const QuickLinks = () => ( 
         <div className="quick-links">

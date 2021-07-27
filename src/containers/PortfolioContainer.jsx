@@ -6,24 +6,28 @@ import Contact from '../components/contact/Contact'
 import QuickLinks from '../components/quick-links/QuickLinks'
 import SocialLinks from '../components/social-links/SocialLinks'
 import SocialLinksSmall from '../components/social-links/SocialLinksSmall'
+import Header from '../components/about-me/Header';
 
 import intro2 from '../components/images/intro2.png'
-import '../components/app/App.css'
+import '../app/App.css'
+import Video from '../components/video/Video';
 
 const PortfolioContainer = () => (
 
       <div className="home-page">
-        <img id="home" className="intro" alt="intro that says Katilyn Wiggins, Software Engineer" 
-        src={intro2}/>
+        {/* <img id="home" className="intro" alt="intro that says Katilyn Wiggins, Software Engineer" 
+        src={intro2}/> */}
+        <Video />
+        <Header /> 
 
-        <SocialLinks /> 
-        <QuickLinks /> 
+        {/* <QuickLinks />  */}
         <About />      
-        <Projects /> 
-        <TechStack />
-        <Contact />
-        <SocialLinksSmall /> 
+        {/* <SocialLinks />  */}
 
+        {/* <Projects />  */}
+        {/* <TechStack /> */}
+        {/* <Contact /> */}
+        {/* <SocialLinksSmall />  */}
 
         <a className="back-to-top" alt="top of page" href="#home">Back to Top</a>
       </div>

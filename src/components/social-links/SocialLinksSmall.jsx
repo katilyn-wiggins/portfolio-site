@@ -2,7 +2,7 @@ import React from 'react';
 import linkedin from '../images/linkedin.svg'
 import github from '../images/github.svg'
 import twitter from '../images/twitter.svg'
-import '../app/App.css'
+import '../../app/App.css'
 
 const SocialLinksSmall = () => ( 
         <div className="small-links">

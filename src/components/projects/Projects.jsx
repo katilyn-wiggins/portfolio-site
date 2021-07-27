@@ -3,7 +3,7 @@ import skincode from '../images/skincode.png'
 import algorhythm from '../images/algorhythm.png'
 import ventana from '../images/ventana.png'
 import angleon from '../images/angleon.png'
-import '../app/App.css'
+import '../../app/App.css'
 
 const Projects = () => ( 
       <>

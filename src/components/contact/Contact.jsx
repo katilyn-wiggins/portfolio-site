@@ -1,6 +1,6 @@
 import React from 'react';
 import katilyn from '../images/katilyn.jpg'
-import '../app/App.css'
+import '../../app/App.css'
 
 const Contact = () => (  
     <>

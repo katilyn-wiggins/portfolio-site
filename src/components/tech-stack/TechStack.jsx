@@ -1,8 +1,8 @@
 import React from 'react';
-import '../app/App.css'
+import '../../app/App.css'
 
 const TechStack = () => ( 
-     <>
+     <div className="tech-container">
         <h1 id="tech-stack">Tech Stack</h1>
         <div className="tech-stack">
         <ul>
@@ -49,7 +49,7 @@ const TechStack = () => (
         </ul>
         </div>
 
-        </>
+        </div>
     );
 
 export default TechStack; 
